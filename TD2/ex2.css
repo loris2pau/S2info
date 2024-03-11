@@ -1,0 +1,34 @@
+body{
+    background-color: #96c4be;
+}
+a:hover {
+    color: #FFFF00;
+}
+tr{
+    border: 5px solid darkblue;
+    width: 50%;
+}
+
+/* ul{
+    display: inline;
+    background:#fafafa;
+    padding:2px;
+    margin: 0;
+    border: 1px #000000;
+    padding: 5px;
+} */
+
+li {
+    border: 1px solid red;
+    display: inline;
+    background:#fafafa;
+    padding:2px;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    margin: 0;
+
+  }
+.resume{
+    background-color: #FFFF00;
+}     
+

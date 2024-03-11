@@ -1,0 +1,19 @@
+a:link{
+    background-color: #000000;
+    /* display: block; */
+    color: #FFFFFF;
+
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #FFFF00;
+}
+
+li{
+    display: inline;
+    margin: 0;
+}

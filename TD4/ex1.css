@@ -1,0 +1,11 @@
+body{
+    background-color: beige;
+}
+
+select{
+    width: 25em;
+}
+option{
+    font-family: 'Snell Roundhand', cursive;
+    font-size: x-large;
+}

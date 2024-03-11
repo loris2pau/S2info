@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+    </head>
+    <body>
+        <fieldset>
+        <legend>La pizza</legend>
+        <script type="text/javascript" src="recupcommande.js"></script>
+        
+        <button onclick="window.location.href='confection.html'">Nouvelle commande</button>
+        </fieldset>
+            <fieldset>
+                <legend>infos personnelles</legend>
+                <form id="infos" name="infos" action="livraison.html">
+                    <fieldset>
+                        
+                        <label> Nom</label> <br>
+                        <input type="text" id="Pnom" name="nom"> <br>
+                        <br>
+                        <label> Prenom</label> <br>
+                        <input type="text" id="Prenom" name="Prenom"> <br>
+                        <br>
+                        <label>numéro de téléphone</label><br>
+                        <input type="tel" id="Ptel" name="Ptel"><br>
+                      </fieldset>
+                    <fieldset><legend>Adresse</legend>
+                        <label> numero</label><br>
+                        <input type="number" id="num" name="num"><br>
+                        <br>
+                        <label>Appellation</label> <br>
+                        <input type="text" id="appelation" name="num"> <br>
+                        <br>
+                        <label>Code postal</label> <br>
+                        <input type="number" id="cp" name="cp"> <br>
+                        <br>
+                        <label>Ville</label> <br>
+                        <input type="text" id="ville" name="ville"> <br>
+                    </fieldset>
+                    <input type="submit">
+                </form>
+        </fieldset>
+</body>
+</html>
