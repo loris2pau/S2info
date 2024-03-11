@@ -61,6 +61,7 @@ function countChoix() {
 }
 
 function MajVar(){
+  alert("yo")
   countChoix();
   countMagasin();
   console.log(panier);
