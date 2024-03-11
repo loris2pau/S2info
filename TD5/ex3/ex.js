@@ -26,7 +26,16 @@ var noms = [
 /* À partir d'ici c'est à toi de jouer !!!            */ 
 /* -------------------------------------------------  */
 
-
+function recupNumFilm(nom){
+  i=0;
+  for(f in noms){
+    i++;
+    if (nom===f){
+      return i;
+    }
+  }
+  return 0;
+}
 
 /* -------------------------------------------------  */
 /* Mes variables */ 
@@ -75,7 +84,7 @@ function deplacer(e) {
 	/* le titre du film (dispo dans le tableau noms)        */
 	/* 4 - ajouter ce texte à l'objet span                  */
 	/* 5- ajouter le span juste avant elemenIMG             */
-  document.getElementById("choix").appendChild(e);
+  // document.getElementById("choix").appendChild(e);
 
 
     /* 6- compter le nb d'images choisies (prix)            */
